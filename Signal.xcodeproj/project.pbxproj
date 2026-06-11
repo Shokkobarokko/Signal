@@ -6,17 +6,16 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		FC6FFA822FDB48B9001D5E2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC6FFA7F2FDB48B9001D5E2E /* Assets.xcassets */; };
+		FC6FFA832FDB48B9001D5E2E /* SignalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6FFA802FDB48B9001D5E2E /* SignalApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		FC6FFA712FDB4890001D5E2E /* Signal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Signal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6FFA7F2FDB48B9001D5E2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC6FFA802FDB48B9001D5E2E /* SignalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		FC6FFA732FDB4890001D5E2E /* Signal */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Signal;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		FC6FFA6E2FDB4890001D5E2E /* Frameworks */ = {
@@ -32,7 +31,7 @@
 		FC6FFA682FDB4890001D5E2E = {
 			isa = PBXGroup;
 			children = (
-				FC6FFA732FDB4890001D5E2E /* Signal */,
+				FC6FFA812FDB48B9001D5E2E /* Signal */,
 				FC6FFA722FDB4890001D5E2E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +42,127 @@
 				FC6FFA712FDB4890001D5E2E /* Signal.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		FC6FFA812FDB48B9001D5E2E /* Signal */ = {
+			isa = PBXGroup;
+			children = (
+				FC6FFA842FDB48BB001D5E2E /* App */,
+				FC6FFA852FDB48CA001D5E2E /* Models */,
+				FC6FFA8A2FDB48EF001D5E2E /* ViewModels */,
+				FC6FFA892FDB48EA001D5E2E /* Views */,
+				FC6FFA882FDB48E2001D5E2E /* Services */,
+				FC6FFA872FDB48DA001D5E2E /* Utils */,
+				FC6FFA862FDB48D5001D5E2E /* Widget */,
+				FC6FFA7F2FDB48B9001D5E2E /* Assets.xcassets */,
+			);
+			path = Signal;
+			sourceTree = "<group>";
+		};
+		FC6FFA842FDB48BB001D5E2E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FC6FFA802FDB48B9001D5E2E /* SignalApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FC6FFA852FDB48CA001D5E2E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FC6FFA862FDB48D5001D5E2E /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		FC6FFA872FDB48DA001D5E2E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FC6FFA932FDB49B8001D5E2E /* Modifiers */,
+				FC6FFA922FDB49AE001D5E2E /* Extensions */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FC6FFA882FDB48E2001D5E2E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FC6FFA892FDB48EA001D5E2E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC6FFA912FDB49A6001D5E2E /* Root */,
+				FC6FFA902FDB499C001D5E2E /* Components */,
+				FC6FFA8F2FDB4996001D5E2E /* Bookmarks */,
+				FC6FFA8E2FDB498D001D5E2E /* Detail */,
+				FC6FFA8D2FDB4982001D5E2E /* Feed */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FC6FFA8A2FDB48EF001D5E2E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FC6FFA8D2FDB4982001D5E2E /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		FC6FFA8E2FDB498D001D5E2E /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		FC6FFA8F2FDB4996001D5E2E /* Bookmarks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bookmarks;
+			sourceTree = "<group>";
+		};
+		FC6FFA902FDB499C001D5E2E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FC6FFA912FDB49A6001D5E2E /* Root */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		FC6FFA922FDB49AE001D5E2E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FC6FFA932FDB49B8001D5E2E /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +179,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				FC6FFA732FDB4890001D5E2E /* Signal */,
 			);
 			name = Signal;
 			packageProductDependencies = (
@@ -109,6 +226,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC6FFA822FDB48B9001D5E2E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC6FFA832FDB48B9001D5E2E /* SignalApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,7 @@ import SwiftUI
 struct SignalApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Text("Signal").foregroundColor(.white).frame(maxWidth: .infinity, maxHeight: .infinity).background(Color.blue).background(Color.black)
         }
     }
 }

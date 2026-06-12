@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		FC6FFA822FDB48B9001D5E2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC6FFA7F2FDB48B9001D5E2E /* Assets.xcassets */; };
 		FC6FFA832FDB48B9001D5E2E /* SignalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6FFA802FDB48B9001D5E2E /* SignalApp.swift */; };
+		FCCC9B3D2FDC737D00C154F7 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCC9B3C2FDC737D00C154F7 /* AppConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FC6FFA712FDB4890001D5E2E /* Signal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Signal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC6FFA7F2FDB48B9001D5E2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC6FFA802FDB48B9001D5E2E /* SignalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalApp.swift; sourceTree = "<group>"; };
+		FCCC9B3C2FDC737D00C154F7 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				FC6FFA802FDB48B9001D5E2E /* SignalApp.swift */,
+				FCCC9B3C2FDC737D00C154F7 /* AppConstants.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC6FFA832FDB48B9001D5E2E /* SignalApp.swift in Sources */,
+				FCCC9B3D2FDC737D00C154F7 /* AppConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
